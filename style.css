@@ -6,31 +6,33 @@
     display: flex;
 }
 .sidebar{
-    background-color: black;
-    color: white;
-    width: 10vw;
+    background-color: rgb(184, 184, 184);
+    width: 434px;
     font-family: sans-serif;
     height: 100vh;
 }
 .sidebar nav{
     padding: 35px;
 }
-.sidebar nav li{
+.sidebar nav li {
     list-style: none;
-    font-size: 20px;
-    padding: 30px 0;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
 }
 .main{
-    background-color: brown;
+    /* background-color: brown; */
     width: 89vw;
 }
 .infocontainer{
-    background-color: black; 
+    /* background-color: black;  */
     height: 30vw;
     width: 80vw;
     margin: 144px auto;
     display: flex;
-    color: white;
     justify-content: space-around;
 }
 .deveInfo{
@@ -38,11 +40,34 @@
     justify-content: center;
     flex-direction: column;
     font-family: sans-serif;
-    font-size: 12vh;
 }
-.deveInfo button{
-    width: 165px;
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 75px;
+    font-weight: bold;
+}
+.about{
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+}
+.buttons{
+    margin-top: 10px;
+}
+.buttons button{
+    padding: 9px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: dodgerblue;
+    font-size: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
 }
 .devePic img{
-    height: 50vh;
+    height: 62vh;
 }
